@@ -8,8 +8,6 @@ It accepts the following argument.
 
 1. `s` is the pointer that contains the state. Each state integer must be initialized with any combination of values.
 
-It returns a 16-bit unsigned integer pseudorandom number result.
-
 It's in the same class as Xorshift16 "798" with 1 auxiliary 16-bit state integer.
 
 It has a minimum period of 2¹⁶ without broken cycles.
